@@ -6,11 +6,13 @@ const Home = () => {
   return (
     <div className='home'>
     <div className='about'>
-      <h2>Hi, my name is Deepak</h2>
-      <div className='prompt'>
-        <p>A Web developement enthusiast !</p>
+      <p>Hi, my name is </p>
+      <section className='animation'>
+        <div className='first'><div>Deepak</div></div>
+        <div className='second'><div>A Web Developer</div></div>
+        <div className='third'><div>and Programmer</div></div>
         <BsGithub />
-      </div>
+      </section>
     </div>
     <div className='skills'>
       <h1>Skills:-</h1>
